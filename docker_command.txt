@@ -9,7 +9,7 @@ docker run -d \
     -v /sharedfolders/dockerdata/deluge-vpn:/config \
     -v /etc/localtime:/etc/localtime:ro \
     -e VPN_ENABLED=yes \
-    -e VPN_USER=usernam \
+    -e VPN_USER=username \
     -e VPN_PASS=password \
     -e VPN_PROV=custom \
     -e VPN_CLIENT=openvpn \
